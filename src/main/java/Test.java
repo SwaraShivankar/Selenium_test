@@ -7,13 +7,13 @@ public class Test {
     @Test
     public void openGoogle() {
 
-        // ChromeDriver path
+        // Set ChromeDriver path
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
-        // Launch browser
+        // Launch Chrome
         WebDriver driver = new ChromeDriver();
 
-        // Open Google
+        // Open website
         driver.get("https://www.google.com");
 
         // Print message
