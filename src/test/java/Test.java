@@ -2,7 +2,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.Test;
 
-public class Test {
+public class TestClass {   // ✅ name changed
 
     @Test
     public void openGoogle() {
